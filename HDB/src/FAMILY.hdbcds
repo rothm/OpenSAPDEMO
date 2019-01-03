@@ -1,0 +1,9 @@
+/*@@layout{"layoutInfo":{"x":-312,"y":-114}}*/
+entity "FAMILY" {
+    key "FAMILY_ID"  : Integer64 not null;
+        "FAMILYNAME" : String(60);
+        DateOfBirth  : UTCDateTime;
+}
+technical configuration {
+    column store;
+};
